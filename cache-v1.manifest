@@ -1,0 +1,15 @@
+CACHE MANIFEST
+
+# Bump this with each release:
+# Serial number 1
+
+index.css
+index.js
+index.html
+apple-touch-icon-v2.png
+apple-touch-icon-precomposed.png
+startup.png
+
+NETWORK:
+network1.php
+network2.cgi
