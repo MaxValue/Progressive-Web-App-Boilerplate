@@ -1,26 +1,31 @@
 <!DOCTYPE html>
-<html manifest="cache.manifest">
+<html manifest="cache.manifest" lang="en">
 	<head>
 		<meta charset="utf-8">
 		<title id="title">Page Title</title>
 		<meta name="apple-mobile-web-app-capable" content="yes" />
 		<meta name="apple-mobile-web-app-status-bar-style" content="default" /><!-- default, black, black-translucent -->
 		<meta name="viewport" content="user-scalable=no, width=device-width" />
-		<link rel="apple-touch-icon" href="./apple-touch-icon-v2.png" /><!-- must be 114x114 -->
-		<!-- <link rel="apple-touch-icon-precomposed" href="./apple-touch-icon-precomposed.png" /> --><!-- must be 114x114 -->
-		<link rel="apple-touch-startup-image" href="./startup.png" /><!-- must be 320x460 -->
-		<meta http-equiv="last-modified" content="Sun, 10 Feb 2013 14:00:46 GMT " />
-		<meta http-equiv="cache-control" content="Private" />
-		<meta http-equiv="Expires" content="600" />
-		<script>
-			function BlockMove(event) {
-				// Tell Safari not to move the window.
-				event.preventDefault() ;
-			}
-		</script>
+		<meta name="apple-mobile-web-app-title" content="Page Title" />
+		<link rel="icon" type="image/x-icon" href="favicon.ico" />
+		<link rel="manifest" href="manifest.webmanifest" />
+		<link rel="canonical" href="PREFERREDURLTOTHISAPP" />
+		<meta name="Description" content="SHORT DESCRIPTION WHICH WILL APPEAR IN LINK PREVIEWS." />
+		<meta property="og:url" id="ogurl" content="https://maxvalue.github.io/Terpene-Profile-Parser-for-Cannabis-Strains/" />
+		<meta property="og:title" id="ogtitle" content="StrainFinder" />
+		<meta property="og:description" content="Compare terpene profiles of cannabis strains using lab test data. Find out which compounds of your favourite strain affect your body." />
+		<meta property="og:image" content="https://maxvalue.github.io/Terpene-Profile-Parser-for-Cannabis-Strains/img/opengraph-icon-1200x1200.png" />
+		<link rel="apple-touch-icon" sizes="120x120" href="img/apple-touch-icon-120x120-v1.png" />
+		<link rel="apple-touch-icon" sizes="152x152" href="img/apple-touch-icon-152x152-v1.png" />
+		<link rel="apple-touch-icon" sizes="167x167" href="img/apple-touch-icon-167x167-v1.png" />
+		<link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon-180x180-v1.png" />
+		<link rel="apple-touch-icon" sizes="1200x1200" href="img/apple-touch-icon-v1.png" />
+		<link rel="apple-touch-icon" href="img/apple-touch-icon-v1.png" /><!-- must be 114x114 -->
+		<!-- <link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon-precomposed.png" /> --><!-- must be 114x114 -->
+		<link rel="apple-touch-startup-image" href="img/startup.png" /><!-- must be 320x460 -->
 		<style type="text/css">
 		</style>
 	</head>
-	<body ontouchmove="BlockMove(event);">
+	<body>
 	</body>
 </html>
