@@ -1,15 +1,16 @@
 CACHE MANIFEST
 
-# Bump this with each release:
-# Serial number 1
+# Cache Manifest v2019-04-09T18:15:00+01:00
 
-index.css
-index.js
-index.html
-apple-touch-icon-v2.png
-apple-touch-icon-precomposed.png
-startup.png
-
-NETWORK:
-network1.php
-network2.cgi
+/manifest.webmanifest
+/index.html
+img/apple-touch-icon-120x120-v1.png
+img/apple-touch-icon-152x152-v1.png
+img/apple-touch-icon-167x167-v1.png
+img/apple-touch-icon-180x180-v1.png
+img/apple-touch-icon-precomposed.png
+img/apple-touch-icon-v1.png
+img/apple-touch-icon-v1.png
+img/opengraph-icon-1200x1200-v1.png
+img/startup.png
+/favicon.ico
